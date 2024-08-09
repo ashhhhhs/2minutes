@@ -1,0 +1,37 @@
+<header id="<%= company._id %>" class="site-header">
+    <div class="site-identity">
+      <h1><a href="#"><%= company.name %></a></h1>
+    </div>  
+    <nav class="site-navigation">
+      <ul class="nav">
+        <li><a href="#">About</a></li> 
+        <li><a href="#">News</a></li> 
+        <li><a href="#">Contact</a></li> 
+      </ul>
+    </nav>
+  </header>
+
+<style>
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .site-header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .site-identity h1 {
+    font-size: 1.5em;
+    margin: .6em 0;
+    display: inline-block;
+  }
+
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+  </style>
